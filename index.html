@@ -14,14 +14,14 @@
     </header>
 
     <nav>
-        <ul id="links">
-            <li><a href="#secciondatos">Datos Personales</a></li>
-            <li><a href="#seccionredes">Rdes Sociales</a></li>
-            <li><a href="#seccionhabilidades">habilidades Profesionales</a></li>
-            <li><a href="#seccionidiomas">Idiomas</a></li>
-            <li><a href="#secciontransversales">Contenidos Transversales</a></li>
-            <li><a href="#secciongaleria">Galeria</a></li>
-            <li><a href="#seccioncontactenos">Cont&aacute;ctenos</a></li>
+        <ul id="contenedor">
+            <li id="uno" ><a href="#secciondatos">Datos Personales</a></div>
+            <li id="dos" ><a href="#seccionredes">Rdes Sociales</a></div>
+            <li id="tres"><a href="#seccionhabilidades">habilidades Profesionales</a></div>
+            <li id="uno" ><a href="#seccionidiomas">Idiomas</a></div>
+            <li id="dos" ><a href="#secciontransversales">Contenidos Transversales</a></div>
+            <li id="tres"><a href="#secciongaleria">Galeria</a></div>
+            <li id="tres"><a href="#seccioncontactenos">Cont&aacute;ctenos</a></div>
         </ul>
     </nav>
 
@@ -91,61 +91,70 @@
         </ol>
     </section>
 
-    <aside id="secciongaleria">
-        <h2>Galería</h2>
-        <img src="reading.jpg" alt="Reading" width="30%">
-        <img src="https://cdn.pixabay.com/photo/2015/05/29/19/18/cafe-789635_960_720.jpg" alt="Foto de colaboración"
-            width="30%">
-    </aside>
-
+    <section id="secciongaleria" class="seccion">
+        <aside id="secciongaleria">
+            <h2>Galería</h2>
+            <img src="reading.jpg" alt="Reading" width="30%">
+            <img src="https://cdn.pixabay.com/photo/2015/05/29/19/18/cafe-789635_960_720.jpg" alt="Foto de colaboración"
+                width="30%">
+        </aside>
+    </section>
+    
     <section id="seccioncontactenos" class="seccion">
-        <h2>Cont&aacute;ctame</h2>
-        <h3>Sus datos</h3>
-        <form>
-            <div>
-                <label for>Nombres:</label>
-                <input type="text">
-            </div>
-            <div>
-                <label for>Apellidos:</label>
-                <input type="text">
-            </div>
-            <div>
-                <label for>Seleccione su rango de edad</label>
-                <div>
-                    <input type="radio"><label for>menor a 25 años</label>
+        <div id="uno" >
+            <h2>Cont&aacute;ctame</h2>
+        </div>
+        <div id="dos" ></div>
+        <div id="tres">
+            <h3>Sus datos</h3>
+            <form>
+                <div id="uno">
+                    <label for>Nombres:</label>
+                    <input type="text">
                 </div>
                 <div>
-                    <input type="radio"><label for>entre 26 y 30 años</label>
+                    <label for>Apellidos:</label>
+                    <input type="text">
                 </div>
                 <div>
-                    <input type="radio"><label for>mayor a 31 años</label>
-                </div>
-            </div>
-            <div>
-                <label for>Seleccione el tipo de servicio a consultar</label>
-                <div>
-                    <input type="checkbox"><label for>Frontend Dev</label>
-                </div>
-                <div>
-                    <input type="checkbox"><label for>Backend Dev</label>
-                </div>
-                <div>
-                    <input type="checkbox"><label for>Desarrollo de software</label>
+                    <label for>Seleccione su rango de edad</label>
+                    <div>
+                        <input type="radio"><label for>menor a 25 años</label>
+                    </div>
+                    <div>
+                        <input type="radio"><label for>entre 26 y 30 años</label>
+                    </div>
+                    <div>
+                        <input type="radio"><label for>mayor a 31 años</label>
+                    </div>
                 </div>
                 <div>
-                    <input type="checkbox"><label for>CI/CD</label>
+                    <label for>Seleccione el tipo de servicio a consultar</label>
+                    <div>
+                        <input type="checkbox"><label for>Frontend Dev</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"><label for>Backend Dev</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"><label for>Desarrollo de software</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"><label for>CI/CD</label>
+                    </div>
                 </div>
-            </div>
-            <button type="submit">Enviar</button>
-        </form>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
 
-        <h3>Ubicaci&oacute;n</h3>
-        <div>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63792.24264597484!2d-80.04078705136719!3d-2.1478802000000035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses!2sec!4v1729818582690!5m2!1ses!2sec"
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div id="cuatro" >
+            <h3>Ubicaci&oacute;n</h3>
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63792.24264597484!2d-80.04078705136719!3d-2.1478802000000035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses!2sec!4v1729818582690!5m2!1ses!2sec"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </section>
 
