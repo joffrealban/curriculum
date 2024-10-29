@@ -8,7 +8,7 @@
   }
   
   #title {
-    color: darkgrey;
+    color: rgb(0, 0, 0);
   }
 
   h2 {
@@ -34,7 +34,6 @@
     background-color: #f4f8fd;
     box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
     padding: 2%;
-    margin: 1%
   }
 
   #seccionidiomas table {
@@ -69,4 +68,61 @@
   }
   #cuatro {
     grid-area: area4;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  body {
+    padding: 0 10%;
+    display: grid;
+    grid-template-areas: 
+        "A A A"
+        "B B B"
+        "C C D"
+        "E F G"
+        "H I I"
+        "J J J";
+    gap: 0.5em;
+  }
+
+  #seccionheader {
+    grid-area: A;
+    text-align: center
+  }
+  #seccionmenu {
+    grid-area: B;
+  }
+  #secciondatos {
+    grid-area: C;
+  }
+  #seccionredes {
+    grid-area: D;
+  }
+  #seccionhabilidades {
+    grid-area: E;
+  }
+  #seccionidiomas {
+    grid-area: F;
+  }
+  #secciontransversales {
+    grid-area: G;
+  }
+  #secciongaleria {
+    grid-area: H;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+  }
+  #seccioncontactenos {
+    grid-area: I;
+  }
+  #seccionfooter {
+    grid-area: J;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
   }
